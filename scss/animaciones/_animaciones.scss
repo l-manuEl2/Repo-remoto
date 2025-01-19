@@ -1,0 +1,85 @@
+@keyframes comic {
+    0%{
+        background-image:url(../../img/spiderman_musculoso_m_s_que_un_fisicoculturista_haciendo.jpeg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../../img/un_robot_haciendo_ejercicio_en_el_gym.jpeg);
+        background-size: cover;
+        
+    }
+    100%{
+        background-image: url(../../img/superman_haciendo_remo_con_barra_con_100.jpeg);
+        background-size: cover;
+    }
+}
+// //   @keyframes comic{
+// //      0%{
+// //          background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtZtluu3MJQYL1n1PX3rLnvtxk4OV7rmOWdQ&s);
+// //          background-size: cover;
+// //      }
+// //      50%{
+// //          background-image: url(https://blogger.googleusercontent.com/img/a/AVvXsEiwq9ie4rgOkQ8F0YtBJBz5GFm_UMD0eZTHFcA0MVibc_XSlAJQ1yGVPA9K0fVY_-K-0B3Qwwf9LO0kgAujnT7a63wt9_J123gHY6IdbKTsZ2NmwVe0zpe_QkCG6ccO5gRS15nHGhoHthWuZxo8kwRoEjnogsaXQtu0hiSolW52bra3mHtiDjsL0c8M=w640-h424);
+// //          background-size: cover;
+// //      }
+// //      100%{
+// //          background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/WhizComicsNo02.jpg/800px-WhizComicsNo02.jpg);
+// //         background-size: cover;
+// //    }
+//   }
+
+
+@keyframes wss {
+    0%{
+        transform: rotate(0);
+    }    
+    25%{
+        transform: rotate(50deg);
+    }
+    50%{
+        transform: rotate(3deg);
+    }
+    75%{
+        transform: rotate(50deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+
+
+//1,2,3,4,5  @keyframes w{
+//     0%{
+//         transform: rotate(0);
+//     }
+//     25%{
+//         transform: rotate(50deg);
+//     }
+//     50%{
+//         transform: rotate(3deg);
+//     }
+//     75%{
+//         transform: rotate(50deg);
+//     }
+//     100%{
+//         transform: rotate(0);
+//     }
+//  }
+
+
+ @keyframes gimnasio {
+    0%{
+        background-image:url(../../img/01gym.webp);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(../../img/03gym.jpg);
+        background-size: cover;
+        
+    }
+    100%{
+        background-image: url(../../img/02gym.jpg);
+        background-size: cover;
+    }
+    
+ }

@@ -1,0 +1,195 @@
+@mixin header-flex($display, $align, $justifi, $bg-color, $flex, $b-botom) {
+    display: $display;
+    align-items: $align;
+    justify-content: $justifi; 
+    background-color: $bg-color; 
+    flex-wrap:$flex;
+    border-bottom:$b-botom; 
+
+  
+}
+@mixin el-h2( $fuente, $font2, $bg-color, $padding, $b-radius, $margin, $color){
+    font-family:$fuente ;
+    font-weight:$font2 ;
+    background-color:$bg-color ;
+    padding:$padding ;
+    border-radius:$b-radius;
+    margin:$margin ;
+    color:$color ;
+}
+@mixin header-2 ($flex, $margin, $padding, $around, $center){
+    display:$flex ;
+    margin:$margin ;
+    padding:$padding ;
+    justify-content:$around ;
+    align-items: $center;
+    
+}
+body{
+    background-color: rgb(2, 2, 2);
+}
+header{   
+   @include header-flex(flex, center, space-around, black, wrap, 2px solid white);  
+   
+        
+          nav{
+            ul{
+                
+                display: flex;
+                
+                list-style: none;
+                li{
+                    margin: 20px;
+                    list-style: none;
+                    
+                    a{
+                        color: rgb(221, 9, 9);
+                        text-decoration: none;
+                        list-style: none;
+                        display: flex;
+                        text-align: center;
+                        
+                    }
+                }
+            }
+          }
+}
+header img{
+    right: 100%;
+    width: 10%;
+    left: 5px;
+    transition: 2s;
+}
+header{
+    img:active{
+width: 10rem;
+    }
+}
+h2{
+    span{
+        @include el-h2(Arial, bold, yellow, 3px 4px 3px 4px, 5px, 5px, black)
+        
+    }
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    font-weight: bold;
+}
+ul {
+    li{
+        margin: 5px;
+    }
+}
+h2{
+    font-family:$fuente;
+    
+}
+
+section{
+    p{
+        font-family:$fuente;
+        margin: 5px;
+}
+}
+h1{
+ 
+    transition: 3s;
+}
+h1:hover{
+    font-size: 1rem;
+}
+
+a {
+    img{
+        background-color: lightgreen;
+        border-radius: 10px;
+    }
+}
+div {
+    p {
+        display:block;
+    }
+}
+header{
+    @include header-2 (flex, 15px, 10px, space-around, center,);
+  
+    
+}
+header {
+    position: fixed;
+    color: rgba(0, 0, 0, 0.082);
+    padding: 4rem;
+    a{
+    transition: 1s;
+
+}
+}
+
+header {
+    a:hover{
+    font-size: 2rem;
+}
+}
+header{
+    img{
+        
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    h1{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}
+.anuncio{
+    position: sticky;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    
+    padding:5px;
+    right: 100%;
+    
+  }
+  .anuncio {
+    p{
+        text-align: center;
+        font-family:$fuente;
+        color:$negro;
+    }
+}
+
+header{
+    .navegacion{
+        .barra-seta{
+            li{
+                a{
+                   
+                   padding: 1rem; 
+                   background-image: linear-gradient(to, top, lightblue, blue);;
+                }
+            }
+        }
+    }
+}
+header{
+    nav{
+        ul{
+            li{
+                a{
+                    padding: 1rem;
+                    margin: 1rem;
+                    padding-bottom: 3rem;
+                    align-items: center;
+                    padding-bottom: 1rem;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+$blanco: white;
+$fuente:arial;
+$bordes: 5px;
+$no: none;
+$fx:flex;
+$cen: center;
+
+.section-botones{
+    margin-top: 35px;
+    display: $fx;
+    justify-content: $cen;
+    .boton-1{
+       
+       background-image:linear-gradient(to right, blue, white, blue);
+        
+        padding:15px;
+        color: $blanco;
+        font-family: $fuente;
+        border-radius: $bordes;
+        text-decoration: $no;
+        transition: 2s;
+        margin: 2rem;
+    }
+a:last-child{
+    @extend .boton-1;
+    &:hover{
+        transform: rotate(30deg)translate(3rem, 2rem)skew(50deg)scale(2);
+    }
+}
+ 
+}
+.fixed-box{
+    transition: 2s;
+  
+   animation-name: wss;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   animation-duration: 2s;
+   
+   &:hover{
+    transform: rotate(300deg)translate(200px);
+   }
+
+}

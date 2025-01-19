@@ -1,0 +1,1215 @@
+@charset "UTF-8";
+* {
+  border: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(10, 10, 10);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: black;
+  font-family: arial;
+}
+
+.filas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formulario-1 {
+  color: white;
+}
+
+.background {
+  background-size: cover;
+}
+
+.titulo2 {
+  text-decoration: none;
+  margin: 2px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.subtitulo3 h1 {
+  text-decoration: none;
+}
+
+.navegacion ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.navegacion ul li a {
+  display: flex;
+  text-align: center;
+}
+
+.position-absolute {
+  position: fixed;
+  width: 100%;
+}
+
+.anuncio-2 {
+  position: sticky;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  background-image: url(../../img/fondo-gym.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px;
+  right: 100%;
+}
+.anuncio-2 ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.anuncio {
+  position: sticky;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  background-color: rgb(231, 140, 2);
+  padding: 5px;
+  right: 100%;
+}
+
+.anuncio p {
+  text-align: center;
+  font-family: arial;
+  color: black;
+}
+
+.logo-whatsapp {
+  position: fixed;
+  position: sticky;
+  right: 15px;
+  bottom: 25px;
+}
+
+.tamaño {
+  width: 15px 15px 15px 15px;
+}
+
+.boton-2 {
+  background-color: lightgreen;
+  padding: 15px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+}
+
+.mover-boton {
+  display: flex;
+  justify-content: center;
+}
+
+.section-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px;
+}
+
+.container3 {
+  margin: 0;
+  padding: 0;
+}
+
+.div-1 {
+  align-self: center;
+}
+
+.div-2 img {
+  width: 50%;
+}
+
+.biceps-5 {
+  width: 75%;
+  border-radius: 5px;
+}
+
+.div-1 h2 {
+  font-family: arial;
+  margin-bottom: 15px;
+}
+
+.div-1 a {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.div-1 .parrafo-3 {
+  text-align: start;
+  margin-top: 15px;
+}
+
+.triceps3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.triceps3 img {
+  width: 100%;
+  height: 200px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 175px);
+  gap: 15px;
+}
+
+.item-1 {
+  background-color: white;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.item-2 {
+  background-color: white;
+  grid-column: 3/5;
+  grid-row: 1/4;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.item-3 {
+  background-color: white;
+  grid-column: 1/3;
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.item-1.color1 h4 p {
+  color: black;
+  font-family: arial;
+  font-size: large;
+}
+
+.item-1 h4 {
+  font-family: arial;
+  font-weight: bold;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.barra p {
+  color: rgb(8, 8, 8);
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+}
+
+.barra {
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.grid-area {
+  border-radius: 5px;
+  margin: 25px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 190px);
+  grid-template-areas: "caja1 caja1 caja2 caja2" "caja3 caja3 caja2 caja2" "caja3 caja3 caja2 caja2";
+  gap: 35px 40px;
+}
+
+.grid-tem01 {
+  background-color: white;
+  grid-area: caja1;
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.grid-tem02 {
+  background-color: white;
+  grid-area: caja2;
+  gap: 10px;
+  text-align: center;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.grid-tem03 {
+  background-color: white;
+  grid-area: caja3;
+  gap: 10px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 1rem;
+}
+
+.barra5 {
+  color: rgb(8, 8, 8);
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid-item03 {
+  color: rgb(8, 8, 8);
+  font-family: arial;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid-item01 {
+  color: rgb(8, 8, 8);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid-item02 {
+  color: rgb(8, 8, 8);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grird-item01 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p {
+  color: white;
+}
+
+.parrafo {
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  margin: 20px;
+  padding: 15px;
+}
+
+.triceps3 {
+  display: flex;
+  justify-content: center;
+}
+
+.triceps3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.descuento {
+  color: rgb(124, 124, 121);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: line-through;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.precio-final {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.porsentaje {
+  color: azure;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+
+.triceps {
+  border-radius: 5px;
+}
+
+.centro {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.parrafo-3 {
+  color: white;
+}
+
+.subtitulo-2 {
+  color: black;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 4px;
+}
+
+.main section img {
+  background-color: red;
+  color: yellow;
+  flex-direction: column;
+}
+
+.section-container img {
+  justify-content: end;
+  align-items: center;
+  text-align: center;
+}
+
+.color {
+  color: white;
+}
+
+.mancuernas img {
+  background-color: lightgreen;
+}
+
+.h3 {
+  color: white;
+}
+
+.main2 .triceps-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.galery-container {
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.galery-container img {
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+  transition: 1s;
+}
+
+.galery-container img:hover {
+  margin: 25px;
+  font-size: 2rem;
+}
+
+.hojas header {
+  background-image: url(black);
+  height: 95vh;
+  width: 100%;
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hojas .color {
+  flex-direction: column;
+}
+.hojas h1 {
+  background-color: orangered;
+  border-radius: 5px;
+  padding: 2rem;
+  font-weight: bold;
+  transition: 1s;
+}
+
+.hojas .color h1:hover {
+  font-size: 3rem;
+}
+
+.page li {
+  background-image: linear-gradient(to top, red, orange);
+  padding: 1rem;
+  border-radius: 5px;
+}
+.page li a {
+  color: black;
+}
+
+div .item-1.color1 h4 {
+  color: black;
+}
+
+.anuncio-2 ul li {
+  margin: 2rem;
+  background-image: linear-gradient(to right, yellow, orange, red);
+  padding: right 0 left 0 top 15px bottom 2rem;
+  border-radius: 5px;
+}
+
+.barra {
+  display: none;
+  background-image: linear-gradient(to rgb(248, 6, 6), rgb(123, 255, 0));
+}
+
+.fixed-box {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: lightgreen;
+  padding: 10px;
+  font-size: 3rem;
+  width: 4rem;
+}
+
+.color {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-botton {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.section-botton .boton-5, .section-botton :last-child {
+  background-image: linear-gradient(to top, blue, white, blue);
+  padding: 1rem;
+  color: black;
+  text-decoration: none;
+  font-family: arial;
+  border-radius: 5px;
+  transition: 1s;
+}
+.section-botton .boton-5:hover, .section-botton :hover:last-child {
+  font-size: larger;
+}
+.section-botton :last-child {
+  margin-left: 15px;
+}
+
+.container3 header {
+  padding-bottom: -3rem;
+  position: none;
+  display: flex;
+}
+
+main {
+  padding-top: 350px;
+}
+
+main {
+  padding-top: 160px;
+}
+
+header {
+  padding-bottom: 200px;
+}
+
+.imagenes4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+}
+.imagenes4 .ejercicio .polea {
+  padding-bottom: 3rem;
+  transform: translate(top 50%);
+}
+
+.texto-2 {
+  color: black;
+}
+
+.form {
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+  padding-top: 400px;
+  display: flex;
+}
+
+.form {
+  justify-content: baseline;
+  background-color: rgba(0, 255, 255, 0.13);
+}
+
+.margen ul li a {
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(2, 2, 2);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  flex-wrap: wrap;
+  border-bottom: 2px solid white;
+}
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  margin: 20px;
+  list-style: none;
+}
+header nav ul li a {
+  color: rgb(221, 9, 9);
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+header img {
+  right: 100%;
+  width: 10%;
+  left: 5px;
+  transition: 2s;
+}
+
+header img:active {
+  width: 10rem;
+}
+
+h2 span {
+  font-family: Arial;
+  font-weight: bold;
+  background-color: yellow;
+  padding: 3px 4px 3px 4px;
+  border-radius: 5px;
+  margin: 5px;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  font-weight: bold;
+}
+
+ul li {
+  margin: 5px;
+}
+
+h2 {
+  font-family: arial;
+}
+
+section p {
+  font-family: arial;
+  margin: 5px;
+}
+
+h1 {
+  transition: 3s;
+}
+
+h1:hover {
+  font-size: 1rem;
+}
+
+a img {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+div p {
+  display: block;
+}
+
+header {
+  display: flex;
+  margin: 15px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header {
+  position: fixed;
+  color: rgba(0, 0, 0, 0.082);
+  padding: 4rem;
+}
+header a {
+  transition: 1s;
+}
+
+header a:hover {
+  font-size: 2rem;
+}
+
+header img {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+header h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.anuncio {
+  position: sticky;
+  margin: 2px;
+  padding: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  padding: 5px;
+  right: 100%;
+}
+
+.anuncio p {
+  text-align: center;
+  font-family: arial;
+  color: black;
+}
+
+header .navegacion .barra-seta li a {
+  padding: 1rem;
+  background-image: linear-gradient(to, top, lightblue, blue);
+}
+
+header nav ul li a {
+  padding: 1rem;
+  margin: 1rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 325px) {
+  .videos {
+    width: 100%;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  header h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+  header img {
+    width: 50%;
+  }
+  header ul li {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  .ejercicio {
+    align-self: flex-end;
+  }
+  .polea {
+    align-self: flex-end;
+  }
+  .imagenes4 {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 25px;
+    row-gap: 25px;
+  }
+  .grid-container img {
+    width: 100%;
+    justify-content: space-between;
+    margin: 25px;
+  }
+  .grid-container video {
+    width: 100%;
+    justify-content: space-between;
+    margin: 25px;
+  }
+  .grid-container h1 {
+    margin: 25px;
+    align-self: flex-start;
+  }
+  .grid-container p {
+    align-self: flex-end;
+  }
+  .item-1 {
+    grid-column: 1/2;
+    gap: 25px;
+    row-gap: 25px;
+    padding: 25px;
+  }
+  .item-1 h1 {
+    margin: 25px;
+  }
+  .item-2 {
+    grid-column: 1/2;
+    gap: 25px;
+    row-gap: 25px;
+    padding: 25px;
+  }
+  .item-2 h1 {
+    margin: 25px;
+  }
+  .item-3 {
+    grid-column: 1/2;
+    gap: 25px;
+    row-gap: 25px;
+    padding: 25px;
+  }
+  .item-3 h1 {
+    margin: 25px;
+  }
+  .grid-area {
+    border: 10x solid white;
+    margin: 25px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "gym-1" "gym-2" "gym-3";
+  }
+  .grid-tem01 {
+    grid-area: gym-1;
+  }
+  .grid-tem02 {
+    grid-area: gym-2;
+  }
+  .grid-tem02 video {
+    width: 40%;
+  }
+  .grid-tem03 {
+    grid-area: gym-3;
+  }
+}
+.anuncio {
+  display: flex;
+}
+
+.triceps-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.biceps {
+  width: 100%;
+}
+
+.triceps {
+  width: 100%;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.div-2 img {
+  width: 100%;
+}
+
+main div img {
+  flex-direction: column;
+}
+
+main {
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+main h2 {
+  transition: 2s;
+}
+
+main h2:hover {
+  margin-left: 50%;
+}
+
+.biceps {
+  transition: 1s;
+}
+
+h3 {
+  transition: 1s;
+}
+
+h3:hover {
+  font-size: 2rem;
+}
+
+main section h3 {
+  transition: 2s;
+  width: 3rem;
+  padding: 2rem;
+  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+}
+
+main section h3:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+main div h2 {
+  color: white;
+}
+main div p {
+  color: white;
+}
+
+main div {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+h3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+form label {
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+form input {
+  transition: 1.5s;
+}
+form input:focus {
+  background-color: lightblue;
+  padding: 15px;
+  color: rgb(253, 253, 253);
+}
+
+.hojas .color form input {
+  color: black;
+  font-weight: bolder;
+}
+
+.comic {
+  transition: 2s;
+}
+
+.comic {
+  background-size: cover;
+}
+.comic p {
+  font-family: arial;
+  color: rgba(128, 128, 128, 0.274);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 300px;
+  padding-bottom: 780px;
+  animation-name: comic;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 3s;
+}
+
+.gimnasio {
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation-name: gimnasio;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-delay: 3s;
+}
+
+.main2 img {
+  transition: 1s;
+}
+
+.main2 img:hover {
+  border: 5px solid rgb(255, 249, 249);
+  margin: 15px;
+}
+
+footer {
+  border-top: 2px solid gray;
+  margin: 15px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+footer p {
+  color: white;
+}
+
+@media screen and (min-width: 640px) {
+  .triceps-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .biceps img {
+    align-items: center;
+    text-align: center;
+  }
+  .biceps {
+    margin: 10px;
+  }
+  h3 span .parrafo {
+    justify-content: end;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: aqua;
+  }
+  .div-2 img {
+    width: 50%;
+  }
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .triceps {
+    margin: 10px;
+  }
+}
+.section-botones {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.section-botones .boton-1, .section-botones a:last-child {
+  background-image: linear-gradient(to right, blue, white, blue);
+  padding: 15px;
+  color: white;
+  font-family: arial;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 2s;
+  margin: 2rem;
+}
+.section-botones a:last-child:hover {
+  transform: rotate(30deg) translate(3rem, 2rem) skew(50deg) scale(2);
+}
+
+.fixed-box {
+  transition: 2s;
+  animation-name: wss;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+.fixed-box:hover {
+  transform: rotate(300deg) translate(200px);
+}
+
+.mixin-botones .boton-2 {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.mixin-botones {
+  display: flex;
+  justify-content: center;
+}
+.mixin-botones .boton-2 {
+  background-color: red;
+  text-decoration: none;
+  color: white;
+  border-radius: 15px;
+  padding: 10px 25px;
+}
+.mixin-botones .boton-3 {
+  background-color: yellow;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  font-family: Arial;
+  margin: 25px;
+  text-decoration: none;
+}
+
+.container-gradiente {
+  border-radius: 5PX;
+  background-image: linear-gradient(top right);
+  margin: 35px;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, white, yellow);
+}
+.container-gradiente div:first-child {
+  width: 350px;
+  margin-right: 35px;
+}
+.container-gradiente div:first-child h3 {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+}
+.container-gradiente div:first-child p {
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin-top: 15px;
+}
+.container-gradiente div:last-child {
+  background-color: rgb(0, 0, 0);
+  width: 450px;
+  padding: 25px 35px;
+  background-color: black;
+  transform: translateY(60px);
+  box-shadow: -3px 17px 61px -1px;
+  border-radius: 5PX;
+  transition: 3s;
+}
+.container-gradiente div:last-child h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.container-gradiente div:last-child p {
+  margin: 15px 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  margin: 25px 0;
+}
+.container-gradiente div:last-child:hover {
+  transform: rotate(20deg);
+}
+
+@keyframes cambiar-color {
+  0% {
+    background-image: linear-gradient(to right, white, rgb(136, 136, 218));
+  }
+  50% {
+    background-image: linear-gradient(circle, #737fec, blue);
+  }
+  100% {
+    background-image: linear-gradient(to left, blue, rgb(88, 159, 241));
+  }
+}
+div h4 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-size: 2rem;
+  animation-name: cambiar-color;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+}
+
+@keyframes comic {
+  0% {
+    background-image: url(../../img/spiderman_musculoso_m_s_que_un_fisicoculturista_haciendo.jpeg);
+    background-size: cover;
+  }
+  50% {
+    background-image: url(../../img/un_robot_haciendo_ejercicio_en_el_gym.jpeg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(../../img/superman_haciendo_remo_con_barra_con_100.jpeg);
+    background-size: cover;
+  }
+}
+@keyframes wss {
+  0% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(50deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+  75% {
+    transform: rotate(50deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+@keyframes gimnasio {
+  0% {
+    background-image: url(../../img/01gym.webp);
+    background-size: cover;
+  }
+  50% {
+    background-image: url(../../img/03gym.jpg);
+    background-size: cover;
+  }
+  100% {
+    background-image: url(../../img/02gym.jpg);
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

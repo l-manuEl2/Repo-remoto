@@ -1,0 +1,33 @@
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.imagen {
+    position: relative;
+    
+}
+
+.imagen img {
+    width: 100%;
+    object-fit: cover;
+    transition: 2s;
+}
+
+.imagen:hover img {
+    filter: brightness(0) invert(1);
+    
+}
+
+/* Opcional: Para un efecto de transparencia blanco */
+.imagen:hover: {
+    content: "";
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+    background-color: rgba(226, 217, 217, 0.13); /* Ajusta la opacidad según tus necesidades */
+}
